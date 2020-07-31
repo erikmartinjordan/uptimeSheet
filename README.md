@@ -15,7 +15,7 @@ Get the uptime of your website using Google Spreadsheets. [Here](https://docs.go
 5. From the script window: `Edit > Current project's triggers`
 6. Add a time trigger for the script (minute, hour, day)
 
-The script will fill a sheet with two columns: date of execution and website status (1 and 0). 
+The script will fill a sheet with two columns: date of execution and website status (1 or 0). 
 
 ## Author
 
