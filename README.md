@@ -19,7 +19,7 @@ The script will fill a sheet with two columns: date of execution and website sta
 
 ## Author
 
-[Erik Martín](https://erikmartinjordan.com)
+[Erik Martín Jordán](https://erikmartinjordan.com)
 
 ## License
 
