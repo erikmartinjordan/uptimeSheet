@@ -9,9 +9,10 @@ Get your website's uptime using Google Spreadsheets. [Here](https://docs.google.
 1. Create a new Google Spreadhseet
 2. `Tools > Script editor`
 3. Copy **`uptime.gs`** in the editor
-4. Replace `SheetNames` and `uptimeURLs`:
+4. Replace `SheetNames`, `uptimeURLs` and `yourEmail`:
     - `SheetNames`: Sheets to record data (1 sheet for each website)
     - `uptimeURLs`: URLs to monitor
+    - `yourEmail`: Email to get notified if errors
 5. From the script window: `Edit > Current project's triggers`
 6. Add a time trigger for the script (minute, hour, day)
 
