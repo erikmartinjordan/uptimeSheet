@@ -26,7 +26,7 @@ function upTime() {
     
       sheet.getRange(lastRow + 1, 3).setValue(0);
       
-      if(sheet.getRange(lastRow - 1, 3).getValue() === 0 && sheet.getRange(lastRow, 3).getValue() === 0){
+      if(lastRow > 1 && sheet.getRange(lastRow - 1, 3).getValue() === 0 && sheet.getRange(lastRow, 3).getValue() === 0){
 
         MailApp.sendEmail(yourEmail, 'Multiple 404 errors at ' + uptimeURLs[i], 'The website is getting 404 errors. Take a look.');
 
