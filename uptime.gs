@@ -1,8 +1,8 @@
 function upTime() {  
   
   var sheetNames = ['Nomoresheet', 'Erikmartinjordan'];
-  
   var uptimeURLs = ['https://nomoresheet.es', 'https://erikmartinjordan.com'];
+  var yourEmail  = 'elon@musk.com';
   
   for(var i = 0; i < uptimeURLs.length; i ++){
     
@@ -28,7 +28,7 @@ function upTime() {
       
       if(sheet.getRange(lastRow - 1, 3).getValue() === 0 && sheet.getRange(lastRow, 3).getValue() === 0){
 
-        MailApp.sendEmail('email@musk.com', 'Multiple 404 errors at ' + uptimeURLs[i], 'The website is getting 404 errors. Take a look.');
+        MailApp.sendEmail(yourEmail, 'Multiple 404 errors at ' + uptimeURLs[i], 'The website is getting 404 errors. Take a look.');
 
       }
       
